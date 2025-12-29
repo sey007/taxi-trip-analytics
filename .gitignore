@@ -1,0 +1,20 @@
+# Data
+data/
+*.csv
+
+# Build artifacts
+*.exe
+*.out
+*.obj
+*.o
+*.ilk
+*.pdb
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
