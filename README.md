@@ -94,10 +94,15 @@ Average tip by passenger count:
 
 taxi-trip-analytics/
 |── Analytics.cpp / .h # Statistical analysis
+
 |── CSVReader.cpp / .h # High-performance CSV ingestion
+
 |── TimeUtilities.cpp / .h # Timestamp parsing and time helpers
+
 |── Trip.cpp / .h # Trip data model
+
 |── main.cpp # Program entry point
+
 |── data/ # CSV files
 
 
@@ -112,6 +117,7 @@ taxi-trip-analytics/
 ## Motivation
 
 This project was built to practice **systems-level performance optimization** in C++, with a focus on real-world data sizes — relevant for quantitative research, data engineering, and operations research (IOE/SURE-style work).
+
 
 
 
