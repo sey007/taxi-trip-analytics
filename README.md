@@ -1,4 +1,4 @@
-# NYC Taxi Trip Analytics (C++)
+﻿# NYC Taxi Trip Analytics (C++)
 
 A high-performance C++ program for parsing and analyzing NYC Yellow Taxi trip data (≈13 million rows, ~1 GB CSV).  
 This project focuses on I/O efficiency, parsing performance, and clean analytical abstractions, and was optimized 
@@ -21,7 +21,7 @@ This project uses the **NYC Yellow Taxi Trip Data** (January 2015):
 
 Place CSV files in:
 
-taxi-trip-analytics/data/
+cabbiething/data/
 
 Example:
 data/yellow_tripdata_2015-01.csv
@@ -47,7 +47,7 @@ Build → Build Solution
 
 Simply run the generated executable:
 
-taxi-trip-analytics.exe
+cabbiething.exe
 
 Example output:
 Loading NYC taxi trip data...
@@ -89,18 +89,12 @@ Average tip by passenger count:
 
 ## Project Structure
 
-taxi-trip-analytics/
-
+cabbiething/
 |── Analytics.cpp / .h # Statistical analysis
-
 |── CSVReader.cpp / .h # High-performance CSV ingestion
-
 |── TimeUtilities.cpp / .h # Timestamp parsing and time helpers
-
 |── Trip.cpp / .h # Trip data model
-
 |── main.cpp # Program entry point
-
 |── data/ # CSV files
 
 
@@ -114,5 +108,5 @@ taxi-trip-analytics/
 
 ## Motivation
 
-This project was built to practice **systems-level performance optimization** in C++, with a focus on real-world data sizes.
+This project was built to practice **systems-level performance optimization** in C++, with a focus on real-world data sizes — relevant for quantitative research, data engineering, and operations research (IOE/SURE-style work).
 
