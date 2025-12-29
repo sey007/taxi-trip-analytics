@@ -13,17 +13,20 @@ step-by-step to reduce runtime from minutes to ~22 seconds.
 
 ## Dataset
 
-This project uses the **NYC Yellow Taxi Trip Data** (January 2015):
+This project uses the **NYC Yellow Taxi Trip Data (January 2015)** obtained from Kaggle:
 
-- ~12.75 million rows
-- ~1 GB CSV file
-- Columns include timestamps, locations, fares, tips, and totals
+- Source: NYC Yellow Taxi Trip Data (Kaggle)
+- Link: https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data
+- Size: ~12.75 million rows (~1 GB CSV)
 
-Place CSV files in:
+Due to file size and licensing considerations, the raw dataset is **not included** in this repository.
 
-taxi-trip-analytics/data/
+### Reproducing Results
 
-Example:
+1. Download the dataset from Kaggle (requires a free Kaggle account)
+2. Extract the January 2015 CSV file
+3. Place it in the following directory:
+
 data/yellow_tripdata_2015-01.csv
 
 
@@ -109,5 +112,6 @@ taxi-trip-analytics/
 ## Motivation
 
 This project was built to practice **systems-level performance optimization** in C++, with a focus on real-world data sizes — relevant for quantitative research, data engineering, and operations research (IOE/SURE-style work).
+
 
 
