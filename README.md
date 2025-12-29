@@ -89,12 +89,18 @@ Average tip by passenger count:
 
 ## Project Structure
 
-cabbiething/
+taxi-trip-analytics/
+
 |── Analytics.cpp / .h # Statistical analysis
+
 |── CSVReader.cpp / .h # High-performance CSV ingestion
+
 |── TimeUtilities.cpp / .h # Timestamp parsing and time helpers
+
 |── Trip.cpp / .h # Trip data model
+
 |── main.cpp # Program entry point
+
 |── data/ # CSV files
 
 
