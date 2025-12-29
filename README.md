@@ -116,7 +116,7 @@ taxi-trip-analytics/
 
 ## Motivation
 
-This project was built to practice **systems-level performance optimization** in C++, with a focus on real-world data sizes — relevant for quantitative research, data engineering, and operations research (IOE/SURE-style work).
+This project was built to practice **systems-level performance optimization** in C++, with a focus on real-world data sizes.
 
 
 
