@@ -21,7 +21,7 @@ This project uses the **NYC Yellow Taxi Trip Data** (January 2015):
 
 Place CSV files in:
 
-cabbiething/data/
+taxi-trip-analytics/data/
 
 Example:
 data/yellow_tripdata_2015-01.csv
@@ -47,7 +47,7 @@ Build → Build Solution
 
 Simply run the generated executable:
 
-cabbiething.exe
+taxi-trip-analytics.exe
 
 Example output:
 Loading NYC taxi trip data...
